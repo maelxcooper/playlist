@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel="stylesheet" href="css/playlist.css">
+</head>
+<body>
+    <section class="banner">
+        <div class="wrapper">
+        <div class="music-con">
+            <h1>Playlist</h1>
+         
+            <section class="flip_boxes">
+            <div class="page active" id="page1">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="images/jk.jpg" alt="Juan Karlos" class="image-flip">
+                            </div>
+                            <div class="flip-box-back">
+                                <figure><img src="images/jk-album.jpg" alt=""></figure>
+                                <a class="go-button" onclick="loadPage('page2')">Go</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="page active" id="page2">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="images/tyler.jpg" alt="Image Description" class="image-flip">
+                            </div>
+                            <div class="flip-box-back">
+                                <figure><img src="images/tyler-album.jpg" alt=""></figure>
+                                <a class="go-button" onclick="loadPage('page2')">Go</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="page active" id="page2">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="images/cg.jpg" alt="Image Description" class="image-flip">
+                        </div>
+                        <div class="flip-box-back">
+                            <figure><img src="images/cg-album.jpg" alt=""></figure>
+                            <a class="go-button" onclick="loadPage('page2')">Go</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </section>
+
+        </div>
+        </div>
+      
+    </section>
+
+    <!-- For Loader -->
+    <div id="loading-screen">
+        <div class="loader"></span>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <script src="js/playlist.js"></script>
+</body>
+</html>
