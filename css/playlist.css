@@ -8,9 +8,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gotham Black', sans-serif;
-    background: url('images/endless-constellation.svg') no-repeat center;
+    background: #000;
+   /* background: url('images/endless-constellation.svg') no-repeat center;
     background-size: cover;
-    background-position: fixed;
+    background-position: fixed; */
 }
 
 body {
